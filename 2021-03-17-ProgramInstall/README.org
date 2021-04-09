@@ -1,0 +1,19 @@
+* Installing programs [/]
+  - From source code [6/6]
+    + [X] Download the source code, uncompress it and enter the
+      directory
+    + [X] Check Readme or install files
+    + [X] =configure= o =cmake=
+      - configure:
+          #+BEGIN_SRC shell
+          ./configure --prefix=/$HOME/local
+          #+END_SRC
+      - cmake :
+	* Crear un directorio auxiliar, entrar alli, y usar ~cmake ../
+          -DCMAKE_PREFIX_INSTALL=$HOME/local~
+    + [X] Compilacion con =make=
+    + [X] Instalacion con =make install=
+    + [X] Configurar el entorno: modify PATH
+  - [ ] Using package managers, like =apt-get=, =yum=, =snap=, =pip=, =slpkg=
+  - [ ] Using the whole compiled binary, =appimage=, =flatpack=
+  - [ ] Using HPC package managers, like =spack=, =modules=, =gix=

@@ -3,7 +3,7 @@
 
 int main(void)
 {
-  const int N = 10000;
+  const int N = 1000000;
   const int NBINS = 20;
   const int SEED = 1;
   const double XMIN = 0.0, XMAX = 1.0;
